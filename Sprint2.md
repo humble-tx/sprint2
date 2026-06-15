@@ -7,6 +7,7 @@ Group members:
 - Tian Xu (田旭)
 - Yang Jiaqi (杨佳其)
 - Ying Luo (罗颖)
+- Zhang XuanHao
 
 My name is Ying Luo. My main contributions were developing the concept, designing the interaction logic, testing TouchDesigner and MediaPipe, making and simplifying the plant model, and organising the documentation.
 
