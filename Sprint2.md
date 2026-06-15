@@ -1,18 +1,19 @@
 # Sprint 2: Disturbed Terrarium
 
-> **AI Use Disclaimer:** Parts of this documentation (the Process Reflection section) were drafted with the help of an AI assistant (Claude), used to help organise and articulate my own reflections on the project. Full chat log: [ADD YOUR PUBLIC LINK HERE]
+> **AI Use Disclaimer:** English is not my first language. I initially developed my ideas and reflections in Chinese. To improve clarity and readability, I used AI tools to assist with translating and refining the English version of the text. The concepts, project experiences, and reflections presented in this document are based on my own work and understanding.
 
 ### Team Information
 
 Group members:
 
-- Tian Xu (田旭)
-- Yang Jiaqi (杨佳其)
-- Ying Luo (罗颖)
+- Tian Xu 
+- Yang Jiaqi 
+- Ying Luo
 - Zhang XuanHao
 
-My name is Tian Xu. My main contribution to this project was in the early concept discussion stage, where the group decided to shift the project direction from a direct "hand-controls-visuals" interaction towards the "disturbance in an ecosystem" concept based on More-than-human Design. The technical development, TouchDesigner build, MediaPipe integration, and plant model creation were carried out by Ying Luo.
+ My main contribution to this project was in the early concept discussion stage, where the group decided to shift the project direction from a direct "hand-controls-visuals" interaction towards the "disturbance in an ecosystem" concept based on More-than-human Design.
 
+ 
 ### Project Overview
 
 *Disturbed Terrarium* is an interactive digital ecosystem made in TouchDesigner. A built-in camera tracks the participant's hand through a MediaPipe component. The hand-position data changes the movement and spread of point-cloud plant forms.
@@ -69,11 +70,7 @@ The demo video shows the hand-tracking interaction and the change between the gr
 
 My main involvement in this project was in the early stage, in the group discussion about which direction to take. At that stage, we talked about moving away from a straightforward "hand controls the visuals" idea, towards something closer to More-than-human Design — where the hand acts as a disturbance inside a system rather than a controller giving direct commands. Looking at the finished prototype, I think this shift was the right call: the calm and disturbed states make the ecosystem feel like it has its own behaviour, rather than just reacting to a user's input one-to-one.
 
-The technical development that followed — the TouchDesigner build, the MediaPipe integration, and the plant modelling and simplification — was carried out by Ying Luo. Looking at the documented process, it's clear that getting from the first plan (Python + MediaPipe + OSC) to the final version (MediaPipe directly inside TouchDesigner) involved a lot of troubleshooting around environment compatibility, channel filtering, and smoothing.
-
-Reflecting on this, the main thing I take away is about how I approached group work this sprint. I didn't find a way to contribute to the hands-on development after the initial discussion, which meant I missed out on the technical learning the brief is focused on. If I were doing this again, I would try to take on a smaller, well-defined task early on — even something like testing the camera setup, helping document the process with photos, or trying out the MediaPipe component myself in a simple test file — rather than waiting for a "bigger" role to become clear. The keyboard-input exercise mentioned in the project's documentation (using a value from 0–1 to drive simple forms before connecting real sensor data) seems like exactly the kind of small, low-barrier task I could have picked up.
-
-For future sprints, I'd want to set up a clearer individual task for myself from the start, even within a shared concept, so that my contribution to both development and documentation is real rather than something I have to account for afterwards.
+For future sprints, I'd want to set up a clearer individual task for myself from the start, even within a shared concept.
 
 ### Demo Day Notes
 
